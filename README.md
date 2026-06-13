@@ -100,7 +100,7 @@ This dashboard focuses on understanding customers and products.
 * Who are the highest-value customers?
 * Which customer segments contribute most to profitability?
 
-![Product & Customer Analysis](visuals/product_customer_analysis.png)
+![Product & Customer Analysis](Visuals/ProductAnalysis.jpeg)
 
 ---
 
@@ -121,7 +121,7 @@ This dashboard focuses on profitability drivers and operational performance.
 * Which regions incur the highest shipping costs?
 * Is there a relationship between shipping cost and profit?
 
-![Operational Insights](visuals/operational_insights.png)
+![Operational Insights](Visuals/OperationalInsights.jpeg)
 
 ---
 
@@ -137,7 +137,7 @@ A Tableau Story was created to present insights in a structured narrative format
 
 The story feature allows stakeholders to consume insights as a business presentation rather than as isolated dashboards.
 
-![Tableau Story](visuals/tableau_story.png)
+
 
 ---
 
