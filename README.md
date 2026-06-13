@@ -1,57 +1,176 @@
-# E-Commerce Executive Dashboard (Tableau)
+# E-Commerce Executive Dashboard | Tableau
 
-## Overview
+## Project Overview
 
-This project is an end-to-end E-Commerce Analytics Dashboard built using Tableau.
-It analyzes sales performance, customer behavior, product profitability, and regional trends to generate actionable business insights.
+This project presents a comprehensive Business Intelligence solution built in Tableau using a global e-commerce dataset. The objective was to transform raw transactional data into actionable insights through interactive dashboards and storytelling techniques.
 
-The goal is to simulate a real-world business intelligence project that helps companies improve profitability, customer targeting, and product strategy
+The project analyzes sales performance, profitability, customer behavior, product performance, regional trends, and operational efficiency to support data-driven business decisions.
 
-## Objectives
+---
 
-- Analyze overall sales and profit performance
-- Identify top-performing products and customers
-- Understand customer segment behavior
-- Evaluate regional and category-wise performance
-- Study the impact of discounts, shipping cost, and payment methods
-- Build an interactive executive dashboard for decision-making
+## Business Problem
 
+E-commerce businesses generate large volumes of transactional data every day. Decision-makers need a centralized view of performance to answer critical questions:
 
-## Dashboard Features
+* How much revenue and profit are being generated?
+* Which products drive business growth?
+* Which customer segments are most valuable?
+* Which regions perform best?
+* How do discounts affect profitability?
+* What operational factors impact performance?
 
-### Executive Overview
-- Total Sales KPI
-- Total Profit KPI
-- Total Orders KPI
-- Profit Margin %
+This Tableau solution was designed to answer these questions through visual analytics.
 
-### Sales Analysis
-- Sales Trend over time
-- Profit Trend over time
-- Sales by Product Category
+---
 
-### Product Analysis
-- Top 10 Products by Sales
-- Profit by Product Category
+## Dataset
 
-### Regional Analysis
-- Sales by Region
-- Profit by Region
+The dataset contains global e-commerce transactions and includes:
 
-### Customer Analysis
-- Top 10 Customers by Sales
-- Customer Segment Performance (Consumer, Corporate, Home Office)
+* Order ID
+* Order Date
+* Customer Name
+* Customer Segment
+* Country
+* Region
+* Product Category
+* Product Name
+* Quantity
+* Unit Price
+* Discount %
+* Total Sales
+* Shipping Cost
+* Profit
+* Payment Method
 
+---
 
-## Future Improvements
+## Tools Used
 
-- Customer Lifetime Value Analysis
-- Sales Forecasting
-- Geographic Mapping
-- Customer Segmentation Dashboard
-- Predictive Analytics Integration
+* Tableau
+* Microsoft Excel / CSV
+* GitHub
+
+---
+
+# Dashboard 1: Executive Overview
+
+The Executive Overview dashboard provides a high-level summary of business performance.
+
+### KPIs
+
+* Total Sales
+* Total Profit
+* Total Orders
+* Profit Margin %
+
+### Visualizations
+
+* Sales Trend
+* Profit Trend
+* Sales by Category
+* Profit by Category
+* Sales by Region
+* Profit by Region
+
+### Business Questions Answered
+
+* How much revenue and profit has the company generated?
+* Are sales increasing over time?
+* Which categories contribute most to revenue?
+* Which regions are the most profitable?
+
+![Executive Overview](visuals/executive_overview.png)
+
+---
+
+# Dashboard 2: Product & Customer Analysis
+
+This dashboard focuses on understanding customers and products.
+
+### Visualizations
+
+* Top 10 Products
+* Top Customers
+* Customer Segment Performance
+
+### Business Questions Answered
+
+* Which products generate the most revenue?
+* Who are the highest-value customers?
+* Which customer segments contribute most to profitability?
+
+![Product & Customer Analysis](visuals/product_customer_analysis.png)
+
+---
+
+# Dashboard 3: Operational Insights
+
+This dashboard focuses on profitability drivers and operational performance.
+
+### Visualizations
+
+* Payment Method Distribution
+* Discount vs Profit Analysis
+* Shipping Cost Analysis
+
+### Business Questions Answered
+
+* Which payment methods are most commonly used?
+* How do discounts impact profitability?
+* Which regions incur the highest shipping costs?
+* Is there a relationship between shipping cost and profit?
+
+![Operational Insights](visuals/operational_insights.png)
+
+---
+
+# Tableau Story
+
+A Tableau Story was created to present insights in a structured narrative format.
+
+### Story Flow
+
+1. Executive Overview
+2. Product & Customer Analysis
+3. Operational Insights
+
+The story feature allows stakeholders to consume insights as a business presentation rather than as isolated dashboards.
+
+![Tableau Story](visuals/tableau_story.png)
+
+---
+
+# Key Insights
+
+* Revenue is concentrated within a limited number of product categories.
+* Profitability varies significantly across regions.
+* Customer segments contribute differently to overall profit.
+* A small number of products generate a substantial share of total sales.
+* Higher discounts may reduce profitability.
+* Shipping costs influence operational efficiency.
+
+---
+
+# Skills Demonstrated
+
+* Data Visualization
+* Dashboard Design
+* Business Intelligence
+* KPI Development
+* Customer Analytics
+* Product Analytics
+* Profitability Analysis
+* Geographic Analysis
+* Tableau Storytelling
+* Data-Driven Decision Making
+
+---
 
 ## Author
 
 Dési Essis
+
 MBA Candidate | Data Analytics & AI Enthusiast
+
+GitHub: https://github.com/EssisDez
