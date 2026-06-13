@@ -80,7 +80,7 @@ The Executive Overview dashboard provides a high-level summary of business perfo
 * Which categories contribute most to revenue?
 * Which regions are the most profitable?
 
-![Executive Overview](visuals/ExecutiveOverview.png)
+![Executive Overview](Visuals/ExecutiveOverview.jpeg)
 
 ---
 
