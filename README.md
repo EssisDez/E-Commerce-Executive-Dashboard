@@ -116,6 +116,39 @@ This dashboard focuses on understanding customers and products.
 
 ![Product & Customer Analysis](Visuals/ProductAnalysis.jpeg)
 
+**Insights**
+
+*Top Profitable Products*
+
+Leading products include:
+
+Standing Desk Converter
+Ergonomic Office Chair
+Corner L-Shaped Desk
+Mesh Back Task Chair
+Customer Segment Performance
+
+*Segment	Profit*
+
+| Segment     | Profit  |
+| ----------- | ------- |
+| Consumer    | $87,300 |
+| Corporate   | $44,463 |
+| Home Office | $27,109 |
+
+
+**Key Findings**
+
+Furniture products dominate overall profitability.
+The Consumer segment contributes the largest share of profits.
+A small number of products account for a significant portion of total profit.
+
+**Recommendations**
+
+Prioritize inventory management for high-performing products.
+Expand successful furniture product lines.
+Develop targeted marketing campaigns for Consumer customers.
+
 ---
 
 # Dashboard 3: Operational Insights
