@@ -53,6 +53,10 @@ The dataset contains global e-commerce transactions and includes:
 
 ---
 
+📄 Tableau Workbook (.twbx)
+
+[Download Workbook](https://github.com/EssisDez/E-Commerce-Executive-Dashboard/blame/e908b352d369185b869af4ea933c31d8dec417fc/E-Commerce-Executive-Dashboard.twbx)
+ 
 # Dashboard 1: Executive Overview
 
 The Executive Overview dashboard provides a high-level summary of business performance
@@ -167,43 +171,16 @@ Most frequently used payment methods:
 
 **Key Findings**
 
-Customers strongly prefer digital payment methods.
-Shipping expenses are concentrated in high-volume markets.
-Opportunities exist to improve logistics efficiency and reduce costs.
+Customers strongly prefer digital payment methods
+Shipping expenses are concentrated in high-volume markets
+Opportunities exist to improve logistics efficiency and reduce costs
 
 **Recommendations**
 
-* Optimize checkout experiences around preferred payment methods.
-* Review shipping partnerships and logistics operations.
-* Analyze discount strategies to maximize profitability.
-
----
-
-# Tableau Story
-
-A Tableau Story was created to present insights in a structured narrative format.
-
-### Story Flow
-
-1. Executive Overview
-2. Product & Customer Analysis
-3. Operational Insights
-
-The story feature allows stakeholders to consume insights as a business presentation rather than as isolated dashboards.
-
-
-
----
-
-# Key Insights
-
-* Revenue is concentrated within a limited number of product categories.
-* Profitability varies significantly across regions.
-* Customer segments contribute differently to overall profit.
-* A small number of products generate a substantial share of total sales.
-* Higher discounts may reduce profitability.
-* Shipping costs influence operational efficiency.
-
+* Optimize checkout experiences around preferred payment methods
+* Review shipping partnerships and logistics operations
+* Analyze discount strategies to maximize profitability
+  
 ---
 
 # Skills Demonstrated
