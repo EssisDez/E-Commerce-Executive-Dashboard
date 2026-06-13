@@ -1335,8 +1335,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='2200' minheight='2200' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='61' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='60' param='vert' type-v2='layout-flow' w='98666' x='667' y='1000'>
+            <zone h='100000' id='63' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='62' param='vert' type-v2='layout-flow' w='98666' x='667' y='1000'>
                 <zone fixed-size='41' h='6375' id='25' type-v2='title' w='83999' x='667' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#d4d4d4' />
@@ -1558,8 +1558,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1000' minheight='1000' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='31' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='30' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='100000' id='33' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='32' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
                 <zone fixed-size='40' h='6000' id='25' type-v2='title' w='98400' x='800' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#d4d4d4' />
@@ -1692,8 +1692,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='950' minheight='950' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='31' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='30' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='100000' id='33' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='32' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
                 <zone h='7500' id='7' type-v2='title' w='98400' x='800' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#d4d4d4' />
@@ -2053,7 +2053,7 @@
       </viewpoint>
       <simple-id uuid='{C9C5F2C2-5AA1-4D7D-AD39-8927D36F59F0}' />
     </window>
-    <window class='dashboard' maximized='true' name='Executive Overview' tab-color='#f66273'>
+    <window class='dashboard' name='Executive Overview' tab-color='#f66273'>
       <viewpoints>
         <viewpoint name='KPI - Profit Margin' />
         <viewpoint name='KPI - Total Orders'>
@@ -2189,7 +2189,7 @@
         </viewpoint>
         <viewpoint name='Top 10 Products' />
       </viewpoints>
-      <active id='-1' />
+      <active id='8' />
       <simple-id uuid='{24ADEFB7-9F31-42FB-89BF-B0A985F22D7B}' />
     </window>
     <window class='worksheet' name='Payment Method Analysis'>
@@ -2281,7 +2281,7 @@
       </viewpoint>
       <simple-id uuid='{71789FA5-3205-4E65-860D-38FCE22164D8}' />
     </window>
-    <window class='dashboard' name='Operational Insights' tab-color='#f66273'>
+    <window class='dashboard' maximized='true' name='Operational Insights' tab-color='#f66273'>
       <viewpoints>
         <viewpoint name='Discount vs Profit'>
           <zoom type='entire-view' />
