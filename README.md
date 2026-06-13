@@ -211,4 +211,3 @@ Dési Essis
 
 MBA Candidate | Data Analytics & AI Enthusiast
 
-GitHub: https://github.com/EssisDez
