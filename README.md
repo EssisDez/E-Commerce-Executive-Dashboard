@@ -144,22 +144,38 @@ Leading products include:
 
 # Dashboard 3: Operational Insights
 
-This dashboard focuses on profitability drivers and operational performance
+The Operational Insights dashboard evaluates business operations through payment methods, shipping costs, and discount analysis.
 
-### Visualizations
+**Payment Method Analysis**
 
-* Payment Method Distribution
-* Discount vs Profit Analysis
-* Shipping Cost Analysis
+Most frequently used payment methods:
 
-### Business Questions Answered
+- Credit Card
+- PayPal
+- Cash on Delivery
+- Bank Transfer
+- Shipping Cost Analysis
 
-* Which payment methods are most commonly used?
-* How do discounts impact profitability?
-* Which regions incur the highest shipping costs?
-* Is there a relationship between shipping cost and profit?
+**Countries with the highest shipping costs include:**
+
+* Mexico
+* United States
+* Japan
+* Canada
 
 ![Operational Insights](Visuals/OperationalInsights.jpeg)
+
+**Key Findings**
+
+Customers strongly prefer digital payment methods.
+Shipping expenses are concentrated in high-volume markets.
+Opportunities exist to improve logistics efficiency and reduce costs.
+
+**Recommendations**
+
+* Optimize checkout experiences around preferred payment methods.
+* Review shipping partnerships and logistics operations.
+* Analyze discount strategies to maximize profitability.
 
 ---
 
@@ -202,6 +218,13 @@ The story feature allows stakeholders to consume insights as a business presenta
 * Geographic Analysis
 * Tableau Storytelling
 * Data-Driven Decision Making
+
+---
+
+# Conclusion
+
+The analysis reveals a profitable retail business generating $484.6K in sales and $158.9K in profit, achieving a healthy 32.8% profit margin. 
+Furniture products drive profitability, while Mexico, Canada, and the United States represent the strongest markets. Customer purchasing behavior favors digital payment methods, and operational analysis highlights opportunities for shipping cost optimization. These insights provide a foundation for improving profitability, operational efficiency, and long-term business growth.
 
 ---
 
