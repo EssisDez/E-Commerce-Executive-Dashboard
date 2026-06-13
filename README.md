@@ -82,6 +82,20 @@ The Executive Overview dashboard provides a high-level summary of business perfo
 
 ![Executive Overview](Visuals/ExecutiveOverview.jpeg)
 
+**Insights**
+
+The business generated nearly $485K in sales with a strong 32.8% profit margin.
+Mexico, Canada, and the United States are the leading revenue-generating markets.
+Furniture is the most profitable product category.
+Sales and profit trends remain relatively stable throughout the analyzed period.
+Office Supplies contribute significantly less profit compared to other categories.
+
+**Recommendations**
+
+Increase investment in Furniture and Technology products.
+Expand marketing efforts in top-performing countries.
+Investigate low-profit categories for optimization opportunities.
+
 ---
 
 # Dashboard 2: Product & Customer Analysis
