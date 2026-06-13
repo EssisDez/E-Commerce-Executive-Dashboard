@@ -2,9 +2,9 @@
 
 ## Project Overview
 
-This project presents a comprehensive Business Intelligence solution built in Tableau using a global e-commerce dataset. The objective was to transform raw transactional data into actionable insights through interactive dashboards and storytelling techniques.
+This project presents a comprehensive Business Intelligence solution built in Tableau using a global e-commerce dataset. The objective was to transform raw transactional data into actionable insights through interactive dashboards and storytelling techniques
 
-The project analyzes sales performance, profitability, customer behavior, product performance, regional trends, and operational efficiency to support data-driven business decisions.
+The project analyzes sales performance, profitability, customer behavior, product performance, regional trends, and operational efficiency to support data-driven business decisions
 
 ---
 
@@ -19,7 +19,7 @@ E-commerce businesses generate large volumes of transactional data every day. De
 * How do discounts affect profitability?
 * What operational factors impact performance?
 
-This Tableau solution was designed to answer these questions through visual analytics.
+This Tableau solution was designed to answer these questions through visual analytics
 
 ---
 
@@ -55,7 +55,7 @@ The dataset contains global e-commerce transactions and includes:
 
 # Dashboard 1: Executive Overview
 
-The Executive Overview dashboard provides a high-level summary of business performance.
+The Executive Overview dashboard provides a high-level summary of business performance
 
 ### KPIs
 
@@ -84,17 +84,17 @@ The Executive Overview dashboard provides a high-level summary of business perfo
 
 **Insights**
 
-The business generated nearly $485K in sales with a strong 32.8% profit margin.
-Mexico, Canada, and the United States are the leading revenue-generating markets.
-Furniture is the most profitable product category.
-Sales and profit trends remain relatively stable throughout the analyzed period.
-Office Supplies contribute significantly less profit compared to other categories.
+The business generated nearly $485K in sales with a strong 32.8% profit margin
+Mexico, Canada, and the United States are the leading revenue-generating markets
+Furniture is the most profitable product category
+Sales and profit trends remain relatively stable throughout the analyzed period
+Office Supplies contribute significantly less profit compared to other categories
 
 **Recommendations**
 
-Increase investment in Furniture and Technology products.
-Expand marketing efforts in top-performing countries.
-Investigate low-profit categories for optimization opportunities.
+Increase investment in Furniture and Technology products
+Expand marketing efforts in top-performing countries
+Investigate low-profit categories for optimization opportunities
 
 ---
 
@@ -122,38 +122,29 @@ This dashboard focuses on understanding customers and products.
 
 Leading products include:
 
-Standing Desk Converter
-Ergonomic Office Chair
-Corner L-Shaped Desk
-Mesh Back Task Chair
-Customer Segment Performance
-
-*Segment	Profit*
-
-| Segment     | Profit  |
-| ----------- | ------- |
-| Consumer    | $87,300 |
-| Corporate   | $44,463 |
-| Home Office | $27,109 |
-
+* Standing Desk Converter
+* Ergonomic Office Chair
+* Corner L-Shaped Desk
+* Mesh Back Task Chair
+* Customer Segment Performance
 
 **Key Findings**
 
-Furniture products dominate overall profitability.
-The Consumer segment contributes the largest share of profits.
-A small number of products account for a significant portion of total profit.
+* Furniture products dominate overall profitability
+* The Consumer segment contributes the largest share of profits
+* A small number of products account for a significant portion of total profit
 
 **Recommendations**
 
-Prioritize inventory management for high-performing products.
-Expand successful furniture product lines.
-Develop targeted marketing campaigns for Consumer customers.
+* Prioritize inventory management for high-performing products
+* Expand successful furniture product lines
+* Develop targeted marketing campaigns for Consumer customers
 
 ---
 
 # Dashboard 3: Operational Insights
 
-This dashboard focuses on profitability drivers and operational performance.
+This dashboard focuses on profitability drivers and operational performance
 
 ### Visualizations
 
