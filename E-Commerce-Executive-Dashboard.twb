@@ -699,6 +699,9 @@
           <aggregation value='true' />
         </view>
         <style>
+          <style-rule element='cell'>
+            <format attr='height' field='[federated.1cdjkv30pu8zsw1ay249n1xzbhtn].[none:Country:nk]' value='29' />
+          </style-rule>
           <style-rule element='mark'>
             <encoding attr='size-bar' field='[federated.1cdjkv30pu8zsw1ay249n1xzbhtn].[sum:Profit:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
             <encoding attr='color' field='[federated.1cdjkv30pu8zsw1ay249n1xzbhtn].[sum:Profit:qk]' palette='green_gold_10_0' type='interpolated' />
@@ -726,6 +729,10 @@
                 <format attr='mark-labels-mode' value='all' />
                 <format attr='mark-labels-range-scope' value='pane' />
                 <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
               </style-rule>
             </style>
           </pane>
@@ -1292,7 +1299,7 @@
             </zone>
             <zone fixed-size='176' h='98000' id='42' is-fixed='true' param='vert' type-v2='layout-flow' w='14667' x='84666' y='1000'>
               <zone fixed-size='663' h='84125' id='41' is-fixed='true' name='Profit by Country' w='14667' x='84666' y='1000'>
-                <layout-cache fixed-size-w='162' type-h='fixed' type-w='fixed' />
+                <layout-cache fixed-size-w='187' type-h='fixed' type-w='fixed' />
                 <zone-style>
                   <format attr='border-color' value='#d4d4d4' />
                   <format attr='border-style' value='solid' />
@@ -1328,8 +1335,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='2200' minheight='2200' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='59' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='58' param='vert' type-v2='layout-flow' w='98666' x='667' y='1000'>
+            <zone h='100000' id='61' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='60' param='vert' type-v2='layout-flow' w='98666' x='667' y='1000'>
                 <zone fixed-size='41' h='6375' id='25' type-v2='title' w='83999' x='667' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#d4d4d4' />
@@ -1342,7 +1349,7 @@
                   </zone-style>
                 </zone>
                 <zone fixed-size='280' h='84125' id='41' is-fixed='true' name='Profit by Country' w='14667' x='84666' y='1000'>
-                  <layout-cache fixed-size-w='162' type-h='fixed' type-w='fixed' />
+                  <layout-cache fixed-size-w='187' type-h='fixed' type-w='fixed' />
                   <zone-style>
                     <format attr='border-color' value='#d4d4d4' />
                     <format attr='border-style' value='solid' />
@@ -1551,8 +1558,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1000' minheight='1000' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='29' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='28' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='100000' id='31' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='30' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
                 <zone fixed-size='40' h='6000' id='25' type-v2='title' w='98400' x='800' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#d4d4d4' />
@@ -1685,8 +1692,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='950' minheight='950' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='29' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='28' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='100000' id='31' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='30' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
                 <zone h='7500' id='7' type-v2='title' w='98400' x='800' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#d4d4d4' />
@@ -1746,7 +1753,7 @@
       <simple-id uuid='{E0F55949-ABAE-43A1-A9EA-4DE403A879BD}' />
     </dashboard>
   </dashboards>
-  <windows source-height='30'>
+  <windows show-side-pane='false' source-height='30'>
     <window class='worksheet' name='Total Sales KPI' tab-color='#dec77b'>
       <cards>
         <edge name='left'>
@@ -2046,7 +2053,7 @@
       </viewpoint>
       <simple-id uuid='{C9C5F2C2-5AA1-4D7D-AD39-8927D36F59F0}' />
     </window>
-    <window class='dashboard' name='Executive Overview' tab-color='#f66273'>
+    <window class='dashboard' maximized='true' name='Executive Overview' tab-color='#f66273'>
       <viewpoints>
         <viewpoint name='KPI - Profit Margin' />
         <viewpoint name='KPI - Total Orders'>
@@ -2056,30 +2063,7 @@
         <viewpoint name='Profit Trend Over Time'>
           <zoom type='entire-view' />
         </viewpoint>
-        <viewpoint name='Profit by Country'>
-          <selection-collection>
-            <tuple-selection>
-              <tuple-reference>
-                <tuple-descriptor>
-                  <pane-descriptor>
-                    <x-fields />
-                    <y-fields>
-                      <field>[federated.1cdjkv30pu8zsw1ay249n1xzbhtn].[none:Country:nk]</field>
-                    </y-fields>
-                  </pane-descriptor>
-                  <columns>
-                    <field>[federated.1cdjkv30pu8zsw1ay249n1xzbhtn].[none:Country:nk]</field>
-                    <field>[federated.1cdjkv30pu8zsw1ay249n1xzbhtn].[sum:Profit:qk]</field>
-                  </columns>
-                </tuple-descriptor>
-                <tuple>
-                  <value>&quot;UAE&quot;</value>
-                  <value>2772.1899999999991</value>
-                </tuple>
-              </tuple-reference>
-            </tuple-selection>
-          </selection-collection>
-        </viewpoint>
+        <viewpoint name='Profit by Country' />
         <viewpoint name='Sales By Category' />
         <viewpoint name='Sales Trend Over Time'>
           <zoom type='entire-view' />
@@ -2090,7 +2074,7 @@
         </viewpoint>
         <viewpoint name='Total Sales KPI' />
       </viewpoints>
-      <active id='44' />
+      <active id='-1' />
       <simple-id uuid='{3F17811E-A365-4409-BE4B-DFA6C3D37C14}' />
     </window>
     <window class='worksheet' name='Top 10 Products'>
@@ -2297,7 +2281,7 @@
       </viewpoint>
       <simple-id uuid='{71789FA5-3205-4E65-860D-38FCE22164D8}' />
     </window>
-    <window class='dashboard' maximized='true' name='Operational Insights' tab-color='#f66273'>
+    <window class='dashboard' name='Operational Insights' tab-color='#f66273'>
       <viewpoints>
         <viewpoint name='Discount vs Profit'>
           <zoom type='entire-view' />
