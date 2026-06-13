@@ -2,84 +2,46 @@
 
 ## Overview
 
-This project presents an interactive Tableau dashboard built to analyze global e-commerce sales performance. The dashboard enables business leaders to monitor key metrics, identify high-performing product categories, evaluate regional profitability, and uncover sales trends over time.
+This project is an end-to-end E-Commerce Analytics Dashboard built using Tableau.
+It analyzes sales performance, customer behavior, product profitability, and regional trends to generate actionable business insights.
+
+The goal is to simulate a real-world business intelligence project that helps companies improve profitability, customer targeting, and product strategy
 
 ## Objectives
 
-- Analyze total sales and profit performance
-- Track sales trends over time
-- Identify top-performing product categories
-- Compare regional sales and profitability
+- Analyze overall sales and profit performance
+- Identify top-performing products and customers
 - Understand customer segment behavior
-- Evaluate payment method distribution
+- Evaluate regional and category-wise performance
+- Study the impact of discounts, shipping cost, and payment methods
+- Build an interactive executive dashboard for decision-making
 
-## Dataset
-
-The dataset contains approximately 2,000 global e-commerce transactions and includes:
-
-- Order ID
-- Order Date
-- Customer Name
-- Customer Segment
-- Country
-- Region
-- Product Category
-- Product Name
-- Quantity
-- Unit Price
-- Discount Percent
-- Total Sales
-- Shipping Cost
-- Profit
-- Payment Method
 
 ## Dashboard Features
 
-### KPI Metrics
-- Total Sales
-- Total Profit
-- Total Orders
+### Executive Overview
+- Total Sales KPI
+- Total Profit KPI
+- Total Orders KPI
 - Profit Margin %
 
-### Visualizations
-- Sales Trend Over Time
+### Sales Analysis
+- Sales Trend over time
+- Profit Trend over time
 - Sales by Product Category
+
+### Product Analysis
+- Top 10 Products by Sales
+- Profit by Product Category
+
+### Regional Analysis
+- Sales by Region
 - Profit by Region
-- Top Products Analysis
-- Payment Method Distribution
 
-## Tools Used
+### Customer Analysis
+- Top 10 Customers by Sales
+- Customer Segment Performance (Consumer, Corporate, Home Office)
 
-- Tableau
-- Microsoft Excel / CSV
-- GitHub
-
-## Business Insights
-
-The dashboard helps answer important business questions:
-
-- Which product categories generate the highest revenue?
-- Which regions contribute the most profit?
-- How do sales evolve over time?
-- Which products drive business growth?
-- What payment methods are most frequently used?
-
-## Project Structure
-
-```text
-ecommerce-executive-dashboard-tableau/
-│
-├── data/
-│   └── global_ecommerce_sales.csv
-│
-├── dashboard/
-│   └── Ecommerce_Dashboard.twbx
-│
-├── screenshots/
-│   └── dashboard_preview.png
-│
-└── README.md
-```
 
 ## Future Improvements
 
